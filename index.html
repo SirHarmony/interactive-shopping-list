@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./src/index.js" defer></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Interactice Shopping List</title>
+  </head>
+  <body>
+    <h1 class="shopping_header">Interactive Shopping List</h1>
+    
+    <main class="shopping_main">
+      <form id="shopping_form-id" class="shopping_form" action="" method="POST">
+        <label for='shopping_input-item' class="shopping_label">Enter Item</label>
+        <input type="text" class="shopping_input" id="shopping_input-item" name="shopping_input-item" placeholder="Item"/>
+        <input class="shopping_btn" type="submit" value="Add" />
+      </form>
+
+      <div class="shopping_items-container">
+        <h2 class="shopping_items-title">My Shopping List</h2>
+        <ul class="shopping_items-list">
+          <!-- <li class="shopping_item">Sugar
+            <div class="Shopping_item-mark-btn">Mark Purchased</div>
+              <div class="Shopping_item-remove-btn">X</div>
+          </li>
+
+          <li class="shopping_item">Flour
+            <div class="Shopping_item-mark-btn">Mark Purchased</div>
+              <div class="Shopping_item-remove-btn">X</div>
+          </li> -->
+        </ul>
+        <div class="Shopping_item-clear-btn">Clear List</div>
+      </div>
+    </main>
+  </body>
+</html>
